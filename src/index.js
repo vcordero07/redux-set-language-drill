@@ -1,9 +1,9 @@
 import store from './store';
 import {setLanguage} from './actions';
 
-// Should output {language: 'en'}
+// Should output {language: 'SP'}
 console.log(store.getState());
 // Switch to German
-store.dispatch(setLanguage('de'));
-// Should output {language: 'de'}
+store.dispatch(setLanguage('PT'));
+// Should output {language: 'PT'}
 console.log(store.getState());
